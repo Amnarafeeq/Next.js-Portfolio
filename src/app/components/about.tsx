@@ -4,8 +4,8 @@ import Typewriter from "typewriter-effect";
 const About = () => {
   return (
     <div id="about-section">
-      <div className="h-[240vh] w-full mt-28 bg-black  flex items-center justify-evenly flex-col border-b-4 border-indigo-500">
-        <h1 className="text-center uppercase text-4xl font-extrabold  bg-gradient-to-r  from-blue-800 to-yellow-600 bg-clip-text text-transparent ">
+      <div className="h-[240vh] w-full  bg-black  flex items-center justify-evenly flex-col border-b-4 border-indigo-500 max-xl:h-auto max-xl:py-14 max-lg:py-8">
+        <h1 className="text-center uppercase text-4xl font-extrabold  bg-gradient-to-r  from-blue-800 to-yellow-600 bg-clip-text text-transparent max-lg:p-10 max-xl:p-14">
           <Typewriter
             options={{
               strings: [" About Me", "Discover Amna"],
@@ -19,7 +19,7 @@ const About = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="3000"
-          className=" bg-black p-4 w-1/2 rounded-md   shadow-[0_4px_20px_rgba(255,255,255,0.7)]"
+          className=" bg-black p-4 w-1/2 rounded-md   shadow-[0_4px_20px_rgba(255,255,255,0.7)] max-sm:w-auto max-sm:m-8 max-lg:m-10 max-xl:w-9/12 max-xl:m-12"
         >
           <h1 className=" text-2xl p-2 font-semibold bg-gradient-to-r  from-indigo-300 via-purple-600 to-pink-300 bg-clip-text text-transparent max-sm:text-base">
             {" "}
@@ -43,7 +43,7 @@ const About = () => {
         <div
           data-aos="fade-left"
           data-aos-duration="2000"
-          className=" bg-black p-6 w-1/2 rounded-md mt-6  shadow-[0_4px_20px_rgba(255,255,255,0.7)]"
+          className=" bg-black p-6 w-1/2 rounded-md mt-6  shadow-[0_4px_20px_rgba(255,255,255,0.7)] max-sm:w-auto max-sm:m-8 max-lg:m-10 max-xl:w-9/12 max-xl:m-12"
         >
           <h1 className=" text-2xl p-2 font-semibold bg-gradient-to-r  from-pink-300 to-red-700  bg-clip-text text-transparent max-sm:text-base">
             {" "}
@@ -67,7 +67,7 @@ const About = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="3000"
-          className=" bg-black p-4 w-1/2 rounded-md   shadow-[0_4px_20px_rgba(255,255,255,0.7)] max-sm:hidden "
+          className=" bg-black p-4 w-1/2 rounded-md   shadow-[0_4px_20px_rgba(255,255,255,0.7)] max-sm:w-auto max-sm:m-8 max-xl:w-9/12 max-xl:m-12 max-lg:m-10"
         >
           <h1 className=" text-2xl p-2 font-semibold bg-gradient-to-r  from-indigo-300 via-purple-600 to-pink-300 bg-clip-text text-transparent">
             {" "}
@@ -92,7 +92,7 @@ const About = () => {
         <div
           data-aos="fade-left"
           data-aos-duration="3000"
-          className=" bg-black p-6 w-1/2 rounded-md   shadow-[0_4px_20px_rgba(255,255,255,0.7)] max-sm:hidden "
+          className=" bg-black p-6 w-1/2 rounded-md   shadow-[0_4px_20px_rgba(255,255,255,0.7)] max-sm:w-auto max-sm:m-8 max-xl:w-9/12 max-xl:m-12 max-lg:m-10"
         >
           <h1 className=" text-2xl p-2 font-semibold bg-gradient-to-r  from-pink-300 to-red-700 bg-clip-text text-transparent">
             {" "}
